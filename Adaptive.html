@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- disable iPhone inital scale -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+<title>Adaptive Design Example</title>
+
+<link href="styles/style01.css" rel="stylesheet" type="text/css">
+<link href="styles/media-queries.css" rel="stylesheet" type="text/css">
+
+<!-- html5.js for IE less than 9 -->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<!-- css3-mediaqueries.js for IE less than 9 -->
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<!-- simple clock script -->
+<script src="js/clock.js"></script>
+</head>
+
+<body onload="runClock(); setInterval('updateClock()', 1000 )">
+
+<div id="pagewrap">
+
+	<header id="header">
+
+		<hgroup>
+			<h1 id="site-logo"><a href="#">Adaptive Design Test</a></h1>
+			<h2 id="site-description">A simple test example website.</h2>
+		</hgroup>
+
+		<nav>
+			<ul id="main-nav" class="clearfix">
+				<li><a href="Adaptive.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Artwork</a> </li>
+				<li><a href="#">Projects</a></li>
+			</ul>
+			<!-- /#main-nav --> 
+		</nav>
+
+		<span id="clock">
+			&nbsp;
+		</span>
+
+	</header>
+	<!-- /#header -->
+	
+	<aside id="sidebar">
+
+		<section class="widget">
+			<h4 class="widgettitle">Jump To</h4>
+			<ul>
+				<li><a href="#">Title 01</a></li>
+				<li><a href="#">Title 02</a></li>
+				<li><a href="#">Title 03</a></li>
+			</ul>
+		</section>
+								
+	</aside>
+	
+	<div id="content">
+
+		<article class="textgroup clearfix">
+
+			<header>
+				<h1 class="textgroup-title"><a href="#">Just a Title</a></h1>
+			</header>
+			
+			<p class="indent"> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum.
+			</p>
+			
+		</article>
+		<!-- /.textgroup -->
+
+	</div>
+	<!-- /#content --> 
+	
+	<footer id="footer">
+	
+		<p>Website © Noone Nobody</a></p>
+
+	</footer>
+	<!-- /#footer --> 
+	
+</div>
+<!-- /#pagewrap -->
+
+</body>
+</html>
